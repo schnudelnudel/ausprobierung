@@ -108,14 +108,14 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"CommBold24"
 		"fgcolor"		"255 255 255 255"
-		"xpos"			"30"
+		"xpos"			"5"
 		"ypos"			"-13"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
 	}	
@@ -125,14 +125,14 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"CommBold24"
 		"fgcolor"		"30 30 30 255"
-		"xpos"			"28"
+		"xpos"			"3"
 		"ypos"			"-15"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
 	}									

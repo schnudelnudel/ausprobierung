@@ -295,7 +295,7 @@ event AccountMoneyRemoved
 	Animate HudAccount		FgColor	"HudIcon_Red" Linear 0.0 0.0001
 	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
 
-	Animate	HudAccount		Ammo2Color "HudIcon_Red" Linear 0.0 0.0001
+	Animate	HudAccount		Ammo2Color "White" Linear 0.0 0.0001
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
 }
 
