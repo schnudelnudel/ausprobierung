@@ -2450,6 +2450,16 @@ Scheme
 				"antialias" "1" 
 			}
 		}
+			"CommBold18" 
+		{
+			"1"
+			{
+				"name"		"Communist SansBold" 
+				"tall"		"18"
+				"weight"	"650"
+				"antialias" "1" 
+			}
+		}
 		"Comm"
 		{
 			"1"
@@ -2480,6 +2490,26 @@ Scheme
 			"antialias" "1"
 			}
 		}
+					"CommBoldHP" 
+		{
+			"1"
+			{
+			"name"		"Communist SansBold" 
+			"tall"		"12"
+			"weight"	"750"
+			"antialias" "1"
+			}
+		}
+						"CommBoldHPShad" 
+		{
+			"1"
+			{
+			"name"		"Communist SansBold" 
+			"tall"		"14"
+			"weight"	"750"
+			"antialias" "1"
+			}
+		}
 			"Comm7" 
 		{
 			"1"
@@ -2488,16 +2518,6 @@ Scheme
 			"tall"		"18" 
 			"weight		"1200"
 			"antialias" "1"
-			}
-		}
-			"CommBold18" 
-		{
-			"1"
-			{
-				"name"		"Communist SansBold" 
-				"tall"		"18"
-				"weight"	"1200"
-				"antialias" "1" 
 			}
 		}
 	//

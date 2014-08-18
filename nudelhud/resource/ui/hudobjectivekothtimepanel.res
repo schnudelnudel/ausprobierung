@@ -5,11 +5,9 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"0"
-		"xpos_minmode"		"20"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
-		"wide"				"100"
+		"wide"				"200"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
@@ -29,16 +27,10 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
-			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
+			"xpos"			"-50"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"200"
 			"wide_minmode"	"30"
 			"wide_lodef"	"50"
 			"tall"			"31"
@@ -48,6 +40,27 @@
 			"labelText"		"0:00"
 		}	
 	}
+			"backgroundBlue"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"backgroundBlue"
+			"xpos"			"10"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"75"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/color_panel_blu"
+				
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+					
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 
 	"RedTimer"
 	{
@@ -58,7 +71,7 @@
 		"ypos"				"0"
 		"ypos_minmode"		"-14"
 		"zpos"				"2"
-		"wide"				"100"
+		"wide"				"200"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
@@ -78,16 +91,10 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
-			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
+			"xpos"			"-30"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"200"
 			"wide_minmode"	"30"
 			"wide_lodef"	"50"
 			"tall"			"31"
@@ -97,6 +104,27 @@
 			"labelText"		"0:00"
 		}	
 	}
+				"backgroundRed"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"backgroundRed"
+			"xpos"			"120"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"75"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/color_panel_red"
+				
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+					
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 	
 	"ActiveTimerBG"
 	{
@@ -113,4 +141,5 @@
 		"image"				"../hud/objectives_timepanel_active_bg"	
 		"scaleImage"		"1"	
 	}
+
 }

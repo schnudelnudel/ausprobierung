@@ -7,7 +7,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"3"
-		"ypos"			"50"
+		"ypos"			"170"
 		"wide"	 		"235"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"0"
@@ -23,7 +23,7 @@
 		"ypos"			"395"
 		"wide"	 		"185"
 		"tall"	 		"2"
-		"font"			"Cerbetica10"
+		"font"			"Default"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"south-west"
-		"font"			"Cerbetica10"
+		"font"			"Default"
 		"maxchars"		"-1"
 	}
 }

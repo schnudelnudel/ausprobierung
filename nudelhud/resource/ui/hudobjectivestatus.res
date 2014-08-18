@@ -4,17 +4,13 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"375"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
+		"xpos"				"383"
 		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
-		"ypos"				"24"	[$X360]
 		"zpos"				"1"
 		"wide"				"110"
 		"wide_hidef"		"300"
 		"wide_lodef"		"300"
-		"tall"				"150"
+		"tall"				"500"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
