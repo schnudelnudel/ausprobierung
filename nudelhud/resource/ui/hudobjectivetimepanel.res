@@ -41,11 +41,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"7"
-		"ypos"			"20"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"xpos"			"20"
+		"ypos"			"34"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -60,9 +57,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextTiny"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"Default"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -86,8 +81,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"7"
-		"ypos"			"20"
+		"xpos"			"20"
+		"ypos"			"34"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -102,9 +97,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"Default"
 	}			
 	"OvertimeBG"
 	{
@@ -126,8 +119,8 @@
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
-		"xpos"			"7"
-		"ypos"			"20"
+		"xpos"			"20"
+		"ypos"			"34"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -142,9 +135,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"Default"
 	}			
 	"SuddenDeathBG"
 	{
@@ -168,8 +159,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"7"
-		"ypos"			"20"
+		"xpos"			"20"
+		"ypos"			"34"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -184,7 +175,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"Default"
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
@@ -232,7 +223,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"Default"
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"

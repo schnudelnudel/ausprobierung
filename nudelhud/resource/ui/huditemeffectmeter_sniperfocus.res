@@ -1,18 +1,17 @@
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
-	HudItemEffectMeter
+		HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"			"c95"	[$WIN32]
+		"ypos"			"c145"	[$WIN32]
+		"wide"			"300"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -21,7 +20,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"0"
-		"tall"			"0"
+		"tall"			"00"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -37,18 +36,14 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"645"
-		"ypos"					"415"
-		"zpos"					"2"
+		"xpos"					"117"
+		"ypos"					"18"
+		"zpos"					"4"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
@@ -56,15 +51,15 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
+		"fgcolor_override"		"255 255 255 255"
 	}
-
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"530"
-		"ypos"					"420"
+		"xpos"					"0"
+		"ypos"					"22"
 		"zpos"					"2"
 		"wide"					"120"
 		"tall"					"5"				
@@ -72,9 +67,10 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"30 30 30 150"
-	}				
+		"fgcolor_override"		"255 60 20 250"
+	}						
 }

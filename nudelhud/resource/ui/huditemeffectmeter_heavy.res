@@ -5,10 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"490"
-		"ypos"			"400"
-		"wide"			"f00"
-		"tall"			"f0"
+		"xpos"			"c95"	[$WIN32]
+		"ypos"			"c145"	[$WIN32]
+		"wide"			"300"
+		"tall"			"50"
 		"MeterFG"		"255 90 20 255"
 		"MeterBG"		"30 30 30 150"
 		"bgcoloroverride"		"30 30 30 255"

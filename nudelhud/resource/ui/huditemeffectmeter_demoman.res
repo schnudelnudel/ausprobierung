@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"485"	[$WIN32]
-		"ypos"			"390"	[$WIN32]
+		"xpos"			"c-64"	[$WIN32]
+		"ypos"			"c190"	[$WIN32]
 		"wide"			"300"
 		"tall"			"50"
 		"fgcolor_override"		"255 90 20 255"
@@ -33,12 +33,28 @@
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
+	"BG"
+	{
+			"ControlName" "ImagePanel"
+			"fieldName" "BG"
+			"xpos" "160"
+			"ypos" "0"
+			"zpos" "-1"
+			"wide" "40"
+			"tall" "24"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "0 0 0 150"	
+	}
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"170"
-		"ypos"					"20"
+		"xpos"					"163"
+		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -51,7 +67,8 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
+		"font"					"CommBold12"
+		"fgcolor_override"		"255 255 255 90"
 	}
 
 	"ItemEffectMeter"
@@ -77,8 +94,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"170"
-		"ypos"					"5"
+		"xpos"					"168"
+		"ypos"					"-4"
 		"zpos"					"2"
 		"wide"					"22"
 		"tall"					"22"	
@@ -90,6 +107,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CommScoreBig"
+		"font"					"CommBold18"
+		"fgcolor"				"82 82 250 255"
 	}
 }

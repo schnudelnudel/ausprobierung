@@ -1,12 +1,12 @@
-"Resource/UI/HudItemEffectMeter_Pomson.res"
+2"Resource/UI/HudItemEffectMeter_Pomson.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"485"	[$WIN32]
-		"ypos"			"390"	[$WIN32]
+		"xpos"			"c95"	[$WIN32]
+		"ypos"			"c145"	[$WIN32]
 		"wide"			"300"
 		"tall"			"50"
 		"fgcolor_override"		"255 90 20 255"

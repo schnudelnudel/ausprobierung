@@ -2460,6 +2460,16 @@ Scheme
 				"antialias" "1" 
 			}
 		}
+				"CommBold12" 
+		{
+			"1"
+			{
+				"name"		"Communist SansBold" 
+				"tall"		"12"
+				"weight"	"650"
+				"antialias" "1" 
+			}
+		}
 		"Comm"
 		{
 			"1"
@@ -2518,6 +2528,16 @@ Scheme
 			"tall"		"18" 
 			"weight		"1200"
 			"antialias" "1"
+			}
+		}
+			"Comm20"
+		{
+					"1"
+			{
+				"name"		"Communist SansBold"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias" "1"
 			}
 		}
 	//

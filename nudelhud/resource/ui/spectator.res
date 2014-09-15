@@ -106,11 +106,11 @@
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"Default"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -364,6 +364,21 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+		}
+					"BG"
+		{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-5"
+		"wide"			"255"
+		"tall"			"90"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"hud_menu_bg"
+		"fillcolor"		"10 10 10 150"
 		}
 	}	
 }

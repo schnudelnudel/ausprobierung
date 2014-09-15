@@ -14,10 +14,10 @@
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"r320"	[$WIN32]
-		"ypos"	"375"	[$WIN32]
+		"xpos"			"c70"	
+		"ypos" 			"c95"
+		"wide"			"250"
+		"tall"			"120"
 		"wide"	"300"
 		"tall"	"45"
 	}
@@ -30,7 +30,7 @@
 		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"f0"
-		"tall"	"f0"
+		"tall"	"480"
 	}	
 	
 	HudKothTimeStatus
@@ -40,7 +40,7 @@
 		"enabled" "1"
 		"xpos"	"c-100"
 		"ypos"	"0"
-		"wide"	"600"
+		"wide"	"200"
 		"tall"	"160"
 		
 		"blue_active_xpos"			"16"
@@ -68,10 +68,10 @@
 		"fieldName" "HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"495"	[$WIN32]
-		"ypos"	"395"	[$WIN32]
-		"wide"	"300"
-		"tall"	"f0"
+		"xpos"			"c50"	
+		"ypos" 			"c95"
+		"wide"			"250"
+		"tall"			"120"
 	}
 	
 	HudDemomanCharge
@@ -79,11 +79,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
+		"xpos"			"c95"	[$WIN32]
+		"ypos"			"c165"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"300"
+		"tall"			"50"
 		"MeterFG"		"255 255 255 255"
 		"MeterBG"		"30 30 30 255"
 	}	
@@ -223,8 +223,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
+		"xpos"		"c-435"	[$WIN32]
+		"ypos"		"c185"	[$WIN32]
 		"xpos"		"50"	[$X360]
 		"ypos"		"330"	[$X360]
 		"wide"		"500"
@@ -515,9 +515,8 @@
 		"fieldName" "ScorePanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "f0"
-		"tall"	 "f0"
+		"wide"	 "640"
+		"tall"	 "480"
 	}
 
 	HudTrain
@@ -804,9 +803,9 @@
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
-		"xpos"					"0"
-		"ypos"					"410"
-		"wide"					"f0"
+		"xpos"					"50"
+		"ypos"					"10"
+		"wide"					"500"
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
@@ -844,7 +843,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"215"
+		"ypos"					"c-50"
 		"wide"					"300"
 		"tall"					"300"
 	}
@@ -1013,8 +1012,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
+		"xpos"			"c-434"	[$WIN32]
+		"ypos"			"c-240"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
 	}	
@@ -1135,7 +1134,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-320"
-		"ypos"					"300"
+		"ypos"					"350"
 		"wide"					"640"
 		"tall"					"100"
 	}
@@ -1236,11 +1235,11 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r270"
-		"ypos"					"300"
+		"xpos"					"r249"
+		"ypos"					"c0"
 		"zpos"					"10"
-		"wide"					"270"
-		"tall"					"180"
+		"wide"					"300"
+		"tall"					"900"
 	}
 	
 	HudTFCrosshair
@@ -1360,7 +1359,7 @@
 		"visible" 		"0"
 		"enabled" 		"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"40"
 		"wide"	 		"40"
 		"tall"	 		"40"
 		"priority"		"40"

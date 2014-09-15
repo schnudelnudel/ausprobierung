@@ -2,63 +2,12 @@
 {	
 	// player health data
 	
-	//Change visible and enabled to "1" on "HPBorderPanel1" and "HPBorderPanel2" for team-colored cross.
-	
-	"HPBorderPanel1"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HPBackgroundPanel1"
-		"xpos"			"119"
-		"ypos"			"31"
-		"zpos"			"2"
-		"wide"			"26"
-		"tall"	 		"64"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "0" 
-		"enabled" "0"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-	"HPBorderPanel2"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HPBackgroundPanel2"
-		"xpos"			"100"
-		"ypos"			"50"
-		"zpos"			"2"
-		"wide"			"64"
-		"tall"	 		"26"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "0"
-		"enabled" "0"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-	
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"140"	
-		"ypos" 			"335"
+		"xpos"			"c-300"	
+		"ypos" 			"c95"
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"1"
@@ -100,11 +49,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"99"
-		"ypos"			"29"
+		"xpos"			"103"
+		"ypos"			"34"
 		"zpos"			"-1"
-		"wide"			"66"	
-		"tall"			"66"	
+		"wide"			"58"	
+		"tall"			"58"	
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -132,7 +81,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"97"
+		"xpos"			"98"
 		"ypos"			"55"	
 		"zpos"			"5"
 		"wide"			"100"

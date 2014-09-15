@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"530"	[$WIN32]
-		"ypos"			"410"	[$WIN32]
+		"xpos"			"c95"	[$WIN32]
+		"ypos"			"c155"	[$WIN32]
 		"wide"			"300"
 		"tall"			"50"
 		"fgcolor_override"		"255 90 20 255"

@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"585"	[$WIN32]
-		"ypos"			"382"	[$WIN32]
+		"xpos"			"c155"	[$WIN32]
+		"ypos"			"c143"	[$WIN32]
 		"xpos_minmode"	"f0"	[$WIN32]
 		"ypos_minmode"	"f0"	[$WIN32]
 		"wide"			"100"
@@ -34,16 +34,31 @@
 		"teambg_3"		"../hud/misc_ammo_area_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
+		"BG"
+	{
+			"ControlName" "ImagePanel"
+			"fieldName" "BG"
+			"xpos" "21"
+			"ypos" "48"
+			"zpos" "-1"
+			"wide" "40"
+			"tall" "24"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "0 0 0 150"	
+	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"16"
+		"ypos"					"41"
 		"zpos"					"2"
-		"wide"					"0"
-		"tall"					"0"
+		"wide"					"50"
+		"tall"					"50"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -53,7 +68,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"CommBold12"
+		"fgcolor_override"		"250 250 250 90"
 	}
 
 	"ItemEffectMeter"
@@ -82,8 +98,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"0"
+		"xpos"					"5"
+		"ypos"					"35"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"40"	
@@ -95,6 +111,27 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"font"					"CommBold18"
+		"fgcolor"				"60 255 15 255"
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"24"
+		"ypos"					"-5"
+		"zpos"					"2"
+		"wide"					"0"
+		"tall"					"0"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"east"
+		"dulltext"				"0"
+		"brighttext"			"0"
 		"font"					"CommBold24"
+		"fgcolor"				"30 30 30 255"
 	}
 }

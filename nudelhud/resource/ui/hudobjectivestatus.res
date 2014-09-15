@@ -4,13 +4,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"383"
+		"xpos"				"c-60"
 		"ypos"				"0"	[$WIN32]
 		"zpos"				"1"
-		"wide"				"110"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
-		"tall"				"500"
+		"wide"				"120"
+		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
@@ -28,8 +26,8 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"fgcolor"		"250 250 250 250"
-			"xpos"			"15"
-			"ypos"			"-10"
+			"xpos"			"30"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"60"
 			"tall"			"40"
