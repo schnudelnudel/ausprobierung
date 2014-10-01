@@ -51,7 +51,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
-		"fgcolor_override"		"0 0 0 255"
+		"fgcolor_override"		"255 255 255 255"
 	}
 	"ItemEffectMeter"
 	{	

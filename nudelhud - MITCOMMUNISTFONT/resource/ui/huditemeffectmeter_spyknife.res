@@ -1,12 +1,12 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {
-		HudItemEffectMeter
+	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c95"	[$WIN32]
-		"ypos"			"c145"	[$WIN32]
+		"ypos"			"c165"	[$WIN32]
 		"wide"			"300"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -51,7 +51,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
-		"fgcolor_override"		"0 0 0 255"
+		"fgcolor_override"		"255 255 255 255"
 	}
 	"ItemEffectMeter"
 	{	
@@ -72,5 +72,5 @@
 		"brighttext"			"0"
 		"bgcolor_override"		"30 30 30 150"
 		"fgcolor_override"		"255 60 20 250"
-	}						
+	}					
 }

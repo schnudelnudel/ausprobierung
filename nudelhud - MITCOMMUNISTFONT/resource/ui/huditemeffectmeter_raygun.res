@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_Raygun.res"
 {
 		HudItemEffectMeter
 	{
@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c95"	[$WIN32]
-		"ypos"			"c145"	[$WIN32]
+		"ypos"			"c155"	[$WIN32]
 		"wide"			"300"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -51,7 +51,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
-		"fgcolor_override"		"0 0 0 255"
+		"fgcolor_override"		"255 255 255 255"
 	}
 	"ItemEffectMeter"
 	{	

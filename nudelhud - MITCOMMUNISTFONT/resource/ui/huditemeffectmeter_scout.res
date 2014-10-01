@@ -1,12 +1,12 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
-		HudItemEffectMeter
+	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c95"	[$WIN32]
-		"ypos"			"c145"	[$WIN32]
+		"ypos"			"c165"	[$WIN32]
 		"wide"			"300"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -36,8 +36,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"117"
-		"ypos"					"18"
+		"xpos"					"112"
+		"ypos"					"17"
 		"zpos"					"4"
 		"wide"					"41"
 		"tall"					"15"
@@ -51,7 +51,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
-		"fgcolor_override"		"0 0 0 255"
+		"fgcolor_override"		"255 255 255 255"
 	}
 	"ItemEffectMeter"
 	{	

@@ -1,6 +1,6 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
 {
-		HudItemEffectMeter
+	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
@@ -8,10 +8,11 @@
 		"xpos"			"c95"	[$WIN32]
 		"ypos"			"c145"	[$WIN32]
 		"wide"			"300"
-		"tall"			"50"
+		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -20,7 +21,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"0"
-		"tall"			"00"
+		"tall"			"0"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -36,7 +37,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"117"
+		"xpos"					"123"
 		"ypos"					"18"
 		"zpos"					"4"
 		"wide"					"41"
@@ -44,6 +45,10 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
+		"visible_minmode"		"1"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
+		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
@@ -51,15 +56,17 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
-		"fgcolor_override"		"0 0 0 255"
 	}
+
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"22"
+		"ypos"					"23"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"120"
 		"tall"					"5"				
@@ -67,10 +74,8 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"center"
+		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"30 30 30 150"
-		"fgcolor_override"		"255 60 20 250"
-	}						
+	}					
 }

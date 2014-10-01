@@ -1,6 +1,6 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_Heavy.res"
 {
-		HudItemEffectMeter
+	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
@@ -9,9 +9,12 @@
 		"ypos"			"c145"	[$WIN32]
 		"wide"			"300"
 		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterFG"		"255 90 20 255"
+		"MeterBG"		"30 30 30 150"
+		"bgcoloroverride"		"30 30 30 255"
+		"fgcoloroverride"		"255 60 20 255"
 	}
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -20,7 +23,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"0"
-		"tall"			"00"
+		"tall"			"0"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -36,9 +39,9 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"117"
+		"xpos"					"155"
 		"ypos"					"18"
-		"zpos"					"4"
+		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
@@ -51,15 +54,15 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Default"
-		"fgcolor_override"		"0 0 0 255"
 	}
+
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"0"
-		"ypos"					"22"
+		"xpos"					"40"
+		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"120"
 		"tall"					"5"				
@@ -67,10 +70,10 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"center"
+		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"30 30 30 150"
-		"fgcolor_override"		"255 60 20 250"
-	}						
+				"bgcoloroverride"		"30 30 30 255"
+		"fgcoloroverride"		"255 60 20 255"
+	}					
 }
